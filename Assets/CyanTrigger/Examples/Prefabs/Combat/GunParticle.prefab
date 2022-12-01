@@ -5122,7 +5122,8 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 1
   Reliable: 0
   _syncMethod: 1
-  serializedProgramAsset: {fileID: 0}
+  serializedProgramAsset: {fileID: 11400000, guid: ed1d69ee95145d245a9d30ec9e6c48fe,
+    type: 2}
   programSource: {fileID: 11400000, guid: 7bd53a95a4b76244787041276552fb45, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgAAAAAAAAAABwUHBQ==
   publicVariablesUnityEngineObjects: []
@@ -5252,7 +5253,8 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3a7e80d7aeb237e49ab10a4c596ad1e4,
+        type: 2}
     - target: {fileID: 1908763021702992321, guid: ceb110819be5f294b976ebdf56779859,
         type: 3}
       propertyPath: serializedPublicVariablesBytesString
@@ -8751,6 +8753,12 @@ PrefabInstance:
       propertyPath: triggerInstance.triggerDataInstance.events.Array.data[2].actionInstances.Array.data[2].inputs.Array.data[0].data.unityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 7413581171963171333}
+    - target: {fileID: 7568774739495607546, guid: ceb110819be5f294b976ebdf56779859,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dd825325d679cb24aac3c0b165dcfd16,
+        type: 2}
     - target: {fileID: 7568774739495607546, guid: ceb110819be5f294b976ebdf56779859,
         type: 3}
       propertyPath: serializedPublicVariablesBytesString

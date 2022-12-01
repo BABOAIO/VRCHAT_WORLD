@@ -15,20 +15,26 @@ MonoBehaviour:
   serializedUdonProgramAsset: {fileID: 11400000, guid: 8addb9e60a44d614d8ad2eb818e31a80,
     type: 2}
   udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
-    .export isEnable\r\n  .export __11_ref_UnityEngineUIToggle\r\n  __CyanTrigger_ProgramName_SystemString:
-    %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString,
-    null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
+    .export isEnable\r\n  .export __11_ref_UnityEngineUIToggle\r\n  .export __12_ref_UnityEngineGameObject\r\n 
+    .export __13_ref_UnityEngineGameObject\r\n  .export __14_ref_UnityEngineGameObject\r\n 
+    __CyanTrigger_ProgramName_SystemString: %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString:
+    %SystemString, null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
     %SystemUInt32, null\r\n  isEnable: %SystemBoolean, null\r\n  __10___jump_return_0_SystemUInt32:
     %SystemUInt32, null\r\n  __11_ref_UnityEngineUIToggle: %UnityEngineUIToggle,
+    null\r\n  __12_ref_UnityEngineGameObject: %UnityEngineGameObject, null\r\n  __13_ref_UnityEngineGameObject:
+    %UnityEngineGameObject, null\r\n  __14_ref_UnityEngineGameObject: %UnityEngineGameObject,
     null\r\n.data_end\r\n\n.code_start\r\n  .export _Toggle\r\n  _Toggle:\r\n   
     PUSH, __1_ea_SystemUInt32\r\n    PUSH, __10___jump_return_0_SystemUInt32\r\n   
     JUMP, 0x00000034\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
     __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
     PUSH, __1_ea_SystemUInt32\r\n    PUSH, __11_ref_UnityEngineUIToggle\r\n    PUSH,
     isEnable\r\n    EXTERN, \"UnityEngineUIToggle.__get_isOn__SystemBoolean\"\r\n   
+    PUSH, __12_ref_UnityEngineGameObject\r\n    PUSH, isEnable\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, __13_ref_UnityEngineGameObject\r\n    PUSH, isEnable\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, __14_ref_UnityEngineGameObject\r\n    PUSH, isEnable\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
     PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
   assemblyError: 
-  triggerHash: CABA8CD175CC23E459D478F17BCF1501
+  triggerHash: 7380B11BF6FBE404B9DB745D93F992D0
   shouldBeNetworked: 0
   warningMessages: []
   errorMessages: []
@@ -71,6 +77,44 @@ MonoBehaviour:
         expanded: 0
         comment:
           comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 1
+          name: isEnable
+          variableID: 6bdaca36-cd8d-4ec0-924d-6ba36c8bfce5
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAAF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
       eventOptions:
         userGate: 0
         userGateExtraData: []
@@ -108,6 +152,30 @@ MonoBehaviour:
       actionIndex: 0
       variableIndex: 0
       multiVariableIndex: -1
+    - symbolName: __12_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __13_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 1
+    - symbolName: __14_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 2
     userVariableNames:
     - isEnable
     userVariableTypes:
