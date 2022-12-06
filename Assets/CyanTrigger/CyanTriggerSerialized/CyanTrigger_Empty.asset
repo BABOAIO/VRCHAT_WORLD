@@ -12,19 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
   m_Name: CyanTrigger_Empty
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: ed1d69ee95145d245a9d30ec9e6c48fe,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 0}
   udonAssembly: 
   assemblyError: 
-  triggerHash: Empty
+  triggerHash: 
   shouldBeNetworked: 0
   warningMessages: []
   errorMessages: []
   ctDataInstance:
-    version: 0
+    version: 6
     updateOrder: 0
     autoSetSyncMode: 1
-    programSyncMode: 0
+    programSyncMode: 2
     programName: 
     events: []
     variables: []
