@@ -81,13 +81,13 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpeedX1: 0.02
-    - _SpeedX2: 0.01
-    - _SpeedY1: 0.01
-    - _SpeedY2: 0.02
+    - _SpeedX1: 0.17
+    - _SpeedX2: 0.15
+    - _SpeedY1: 0.15
+    - _SpeedY2: -0.09
     - _SrcBlend: 1
-    - _Strength1: 0.63
-    - _Strength2: 0.56
+    - _Strength1: 1.05
+    - _Strength2: 0.77
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
