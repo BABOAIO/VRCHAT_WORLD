@@ -58,6 +58,6 @@ MonoBehaviour:
     stringLiteral: {r: 0.549, g: 0.424, b: 0.255, a: 1}
     unityObjectLiteral: {r: 0.37, g: 0.52, b: 0, a: 1}
     valueLiteral: {r: 0.671, g: 0.184, b: 0.42, a: 1}
-  directoryPath: {fileID: 0}
+  directoryPath: {fileID: 102900000, guid: 1349772a13f54304897696ab6b5405a4, type: 3}
   lastMigratedDataVersion: 6
   lastExampleVersionImported: 
